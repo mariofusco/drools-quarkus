@@ -17,21 +17,14 @@
   <properties>
     <version.jdk>11</version.jdk>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <drools-version>7.54.0.Final</drools-version>
-    <quarkus-version>1.13.6.Final</quarkus-version>
+    <drools-version>8.36.0.Final</drools-version>
+    <quarkus-version>2.16.3.Final</quarkus-version>
     <slf4j-version>1.7.30</slf4j-version>
     <junit-version>4.13.1</junit-version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>org.drools</groupId>
-        <artifactId>drools-bom</artifactId>
-        <type>pom</type>
-        <version>${drools-version}</version>
-        <scope>import</scope>
-      </dependency>
       <dependency>
         <groupId>io.quarkus</groupId>
         <artifactId>quarkus-bom</artifactId>

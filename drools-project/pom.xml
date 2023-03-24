@@ -17,10 +17,7 @@
     <dependency>
       <groupId>org.drools</groupId>
       <artifactId>drools-engine</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.drools</groupId>
-      <artifactId>drools-model-compiler</artifactId>
+      <version>${drools-version}</version>
     </dependency>
   </dependencies>
 
